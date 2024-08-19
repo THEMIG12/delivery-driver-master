@@ -1,0 +1,250 @@
+fileFormatVersion: 2
+guid: 394725b3d5bb141418048f1b92f58a99
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 238
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0681141cd8d59f243bba4d3f3192cd5a
+      internalID: -1295597471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 235
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5131c049f35c4314cb55f07ca3d64988
+      internalID: -1072499880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 230
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05147ef5bfae6f144b0f946e3b63aa44
+      internalID: -43348948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_0: -1295597471
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_1: -1072499880
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_10: -1515415072
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_11: 2059586877
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_12: -1538234218
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_13: -1210996513
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_14: 1963600993
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_15: 325172599
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_16: -514734221
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_17: -643549576
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_18: -1456130697
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_19: 453229696
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_2: -43348948
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_20: -2042500965
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_21: 2133271532
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_22: -501009798
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_23: -667567423
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_24: 872010296
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_25: 429619927
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_26: 170361182
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_27: 1673034853
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_28: 2096164427
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_29: -1452749689
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_3: 581880768
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_30: 260024179
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_31: 1865592915
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_32: -1878145987
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_33: 1429419434
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_34: 1598808568
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_35: -1387682338
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_36: 2019476233
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_37: -273271403
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_38: 770716125
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_39: -1676488119
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_4: 1960254339
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_40: 1722149668
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_41: 561614213
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_42: -1402911421
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_43: 1368266981
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_44: 2018219489
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_45: 1250392717
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_46: 1130946674
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_5: 1294882283
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_6: -567999970
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_7: -1648762095
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_8: 423122831
+      cartoon-smoke-explosion-game-sprite-asset-effect-vector-45126345-removebg-preview_9: -1477335347
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
