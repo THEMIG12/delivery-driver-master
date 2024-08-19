@@ -8,6 +8,8 @@ TagManager:
   - Customer
   - Boost
   - Jump
+  - PassOver
+  - UnderPass
   layers:
   - Default
   - TransparentFX
@@ -56,4 +58,7 @@ TagManager:
     locked: 0
   - name: Car
     uniqueID: 3844366057
+    locked: 0
+  - name: Bridge
+    uniqueID: 2442423689
     locked: 0
