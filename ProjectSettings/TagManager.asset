@@ -9,7 +9,9 @@ TagManager:
   - Boost
   - Jump
   - PassOver
-  - UnderPass
+  - PassUnder
+  - PassOverCollider
+  - PassUnderCollider
   layers:
   - Default
   - TransparentFX
@@ -61,4 +63,7 @@ TagManager:
     locked: 0
   - name: Bridge
     uniqueID: 2442423689
+    locked: 0
+  - name: SkidMarksPass
+    uniqueID: 1298270075
     locked: 0
