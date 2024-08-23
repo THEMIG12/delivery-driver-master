@@ -34,6 +34,9 @@ public class CarLayerHandler : MonoBehaviour
             underpassColliderList.Add(underpassColliderGameObject.GetComponent<Collider2D>());
         }
         carCollider = GetComponentInChildren<Collider2D>();
+
+        //Default drive on underpass
+        carCollider.gameObject.layer = LayerMask.NameToLayer("ObjectOnUnderPass");
     }
 
     void Start()
@@ -88,12 +91,18 @@ public class CarLayerHandler : MonoBehaviour
         {
             //Debug.Log("PassUnder");
             isDrivingON = false;
+
+            carCollider.gameObject.layer = LayerMask.NameToLayer("ObjectOnUnderPass");
+
             UpdateSortingAndCollisionLayer();
         }
         else if (collider2D.CompareTag("PassOver"))
         {
             //Debug.Log("PassOver");
             isDrivingON = true;
+
+            carCollider.gameObject.layer = LayerMask.NameToLayer("ObjectOnOverPass");
+
             UpdateSortingAndCollisionLayer();
         }
     }

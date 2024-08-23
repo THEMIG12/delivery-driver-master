@@ -12,6 +12,7 @@ TagManager:
   - PassUnder
   - PassOverCollider
   - PassUnderCollider
+  - CheckPoint
   layers:
   - Default
   - TransparentFX
@@ -19,8 +20,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - ObjectOnOverPass
+  - ObjectOnUnderPass
   - 
   - 
   - 
