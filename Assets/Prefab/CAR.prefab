@@ -31,7 +31,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2401788494777148128}
+  m_Father: {fileID: 3371902860923456894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!96 &7509144195558237447
 TrailRenderer:
@@ -161,7 +161,7 @@ GameObject:
   - component: {fileID: 3371902860923456894}
   - component: {fileID: 3050128860243143432}
   m_Layer: 0
-  m_Name: Car
+  m_Name: CarSprites
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -179,7 +179,12 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5502610059228397635}
+  - {fileID: 3997051518967041472}
+  - {fileID: 8493835496498752124}
+  - {fileID: 8451758361257735733}
+  - {fileID: 2540065052421023406}
   m_Father: {fileID: 1518779225997459087}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3050128860243143432
@@ -265,7 +270,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2401788494777148128}
+  m_Father: {fileID: 3371902860923456894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!96 &4027014884863429911
 TrailRenderer:
@@ -674,11 +679,11 @@ Transform:
   m_GameObject: {fileID: 2076995320304943558}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.55999947, y: -1.3000002, z: 0}
+  m_LocalPosition: {x: 0.55999947, y: -1.2999992, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2401788494777148128}
+  m_Father: {fileID: 6274304178806957540}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &2377665183413780171
 ParticleSystem:
@@ -5496,6 +5501,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59002abe223080e43824ba1dddff066d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2094664957506762568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6274304178806957540}
+  m_Layer: 0
+  m_Name: ParticalSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6274304178806957540
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094664957506762568}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8190910458602471833}
+  - {fileID: 6068682603352244130}
+  - {fileID: 636977273476358190}
+  m_Father: {fileID: 1518779225997459087}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2138157843826660407
 GameObject:
   m_ObjectHideFlags: 0
@@ -5528,7 +5567,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2401788494777148128}
+  m_Father: {fileID: 6274304178806957540}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &7837421134841699388
 ParticleSystem:
@@ -10374,11 +10413,11 @@ Transform:
   m_GameObject: {fileID: 2513309514905292726}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5600004, y: -1.3000002, z: 0}
+  m_LocalPosition: {x: -0.5600004, y: -1.2999992, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2401788494777148128}
+  m_Father: {fileID: 6274304178806957540}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &1895657798057325049
 ParticleSystem:
@@ -15227,7 +15266,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2401788494777148128}
+  m_Father: {fileID: 3371902860923456894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!96 &7224842127197678558
 TrailRenderer:
@@ -15362,6 +15401,7 @@ GameObject:
   - component: {fileID: 6117293148625918710}
   - component: {fileID: 2479204317215551410}
   - component: {fileID: 2217230021667968817}
+  - component: {fileID: 1085527326207125570}
   m_Layer: 0
   m_Name: CAR
   m_TagString: Untagged
@@ -15384,9 +15424,7 @@ Transform:
   m_Children:
   - {fileID: 3371902860923456894}
   - {fileID: 8583317130196244852}
-  - {fileID: 5502610059228397635}
-  - {fileID: 2174751641031076122}
-  - {fileID: 2401788494777148128}
+  - {fileID: 6274304178806957540}
   - {fileID: 7415031975229438951}
   - {fileID: 4220901007705819042}
   m_Father: {fileID: 0}
@@ -15475,6 +15513,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32f786e0c473be649addc2fc6be50222, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerNumber: 1
+  isUIInput: 0
 --- !u!114 &6055098018922603333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15582,6 +15622,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carPositionText: {fileID: 6373556280377096579}
+--- !u!114 &1085527326207125570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3741574439781671720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bde7b51c9e3215f469d1610a71310edd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carSpriteObj: {fileID: 3371902860923456894}
+  ghostCarPlaybackPrefab: {fileID: 921680876989652968, guid: 07bb484df80a3b14287d4cbc6989ce64, type: 3}
+  isRecording: 1
 --- !u!1 &3816072605570551437
 GameObject:
   m_ObjectHideFlags: 0
@@ -15666,37 +15721,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &3929122095777324017
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2174751641031076122}
-  m_Layer: 0
-  m_Name: Sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2174751641031076122
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3929122095777324017}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1518779225997459087}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4434578299558932163
 GameObject:
   m_ObjectHideFlags: 0
@@ -15728,7 +15752,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2401788494777148128}
+  m_Father: {fileID: 3371902860923456894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!96 &2999061404134790707
 TrailRenderer:
@@ -15847,44 +15871,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOverpassEmitter: 1
---- !u!1 &5804827316085217219
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2401788494777148128}
-  m_Layer: 0
-  m_Name: Trail-Particle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2401788494777148128
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5804827316085217219}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3997051518967041472}
-  - {fileID: 8493835496498752124}
-  - {fileID: 8451758361257735733}
-  - {fileID: 2540065052421023406}
-  - {fileID: 8190910458602471833}
-  - {fileID: 6068682603352244130}
-  - {fileID: 636977273476358190}
-  m_Father: {fileID: 1518779225997459087}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6104215528955615261
 GameObject:
   m_ObjectHideFlags: 0
@@ -16307,7 +16293,7 @@ Transform:
   m_LocalScale: {x: 0.77, y: 0.77, z: 0.77}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 1518779225997459087}
+  m_Father: {fileID: 3371902860923456894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6487779236754648012
 SpriteRenderer:
@@ -16350,7 +16336,7 @@ SpriteRenderer:
   m_SortingLayerID: -1852543607
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1278959a07cc6014c95fcd6686cd1bd5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 35239af1fa0251e49ab4e939cd7ad9b9, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -55,6 +55,7 @@
     },
     "dotnet.preferCSharpExtension": true,
     "cSpell.words": [
-        "Behaviour"
+        "Behaviour",
+        "Rigidbody"
     ]
 }

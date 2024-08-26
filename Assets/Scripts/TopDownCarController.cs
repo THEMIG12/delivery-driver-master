@@ -118,7 +118,10 @@ public class TopDownCarController : MonoBehaviour
 
     public void SetInputVector(Vector2 inputVector)
     {
-        steeringInput = inputVector.x;
+        if (inputVector.y > 0)
+            steeringInput = inputVector.x;
+        if (inputVector.y < 0)
+            steeringInput = -inputVector.x;
         accelerationInput = inputVector.y;
     }
 
