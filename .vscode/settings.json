@@ -56,6 +56,9 @@
     "dotnet.preferCSharpExtension": true,
     "cSpell.words": [
         "Behaviour",
-        "Rigidbody"
+        "Datas",
+        "Leaderboard",
+        "Rigidbody",
+        "UGUI"
     ]
 }

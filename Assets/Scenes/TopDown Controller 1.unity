@@ -2291,6 +2291,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 8895900cf0acfd94b975660437185989, type: 3}
+    - target: {fileID: 1085527326207125570, guid: f7f4ea61412259c42ba7eb4f2b1ada74, type: 3}
+      propertyPath: ghostCarPlaybackPrefab
+      value: 
+      objectReference: {fileID: 167184885573127948, guid: 360c65d2d8c9f87469ffc731c13997d4, type: 3}
     - target: {fileID: 1518779225997459087, guid: f7f4ea61412259c42ba7eb4f2b1ada74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2342,6 +2346,10 @@ PrefabInstance:
     - target: {fileID: 3741574439781671720, guid: f7f4ea61412259c42ba7eb4f2b1ada74, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6055098018922603333, guid: f7f4ea61412259c42ba7eb4f2b1ada74, type: 3}
+      propertyPath: rotationAngle
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6487779236754648012, guid: f7f4ea61412259c42ba7eb4f2b1ada74, type: 3}
       propertyPath: m_Sprite
@@ -3650,6 +3658,10 @@ PrefabInstance:
     - target: {fileID: 3741574439781671720, guid: f7f4ea61412259c42ba7eb4f2b1ada74, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6055098018922603333, guid: f7f4ea61412259c42ba7eb4f2b1ada74, type: 3}
+      propertyPath: rotationAngle
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6487779236754648012, guid: f7f4ea61412259c42ba7eb4f2b1ada74, type: 3}
       propertyPath: m_Sprite
@@ -5178,6 +5190,10 @@ PrefabInstance:
     - target: {fileID: 3741574439781671720, guid: f7f4ea61412259c42ba7eb4f2b1ada74, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6055098018922603333, guid: f7f4ea61412259c42ba7eb4f2b1ada74, type: 3}
+      propertyPath: rotationAngle
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6487779236754648012, guid: f7f4ea61412259c42ba7eb4f2b1ada74, type: 3}
       propertyPath: m_Sprite
@@ -10835,6 +10851,10 @@ PrefabInstance:
     - target: {fileID: 3741574439781671720, guid: f7f4ea61412259c42ba7eb4f2b1ada74, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6055098018922603333, guid: f7f4ea61412259c42ba7eb4f2b1ada74, type: 3}
+      propertyPath: rotationAngle
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6487779236754648012, guid: f7f4ea61412259c42ba7eb4f2b1ada74, type: 3}
       propertyPath: m_Sprite
